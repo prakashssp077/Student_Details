@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Details"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_marginLeft="60dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter RollNo:"
+            android:textSize="20sp"
+            android:layout_marginTop="150dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/Rollno"
+            android:layout_marginTop="140dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Name:"
+            android:textSize="20sp"
+            android:layout_marginTop="200dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="String"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/Name"
+            android:layout_marginTop="190dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Marks:"
+            android:textSize="20sp"
+            android:layout_marginTop="250dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="240dp"
+            android:id="@+id/Marks"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Insert"
+            android:id="@+id/Insert"
+            android:layout_marginTop="300dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:id="@+id/Delete"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="100dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="update"
+            android:id="@+id/Update"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="200dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="view"
+            android:id="@+id/View"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="300dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="view all"
+            android:id="@+id/ViewAll"
+            android:layout_marginTop="370dp"
+            android:layout_marginLeft="150dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
